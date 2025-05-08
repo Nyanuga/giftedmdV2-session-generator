@@ -14,14 +14,14 @@ const { Boom } = require("@hapi/boom");
 const PORT = process.env.PORT ||  5000
 const MESSAGE = process.env.MESSAGE ||  `
 ╔════◇
-║ *『 WOW YOU'VE CHOSEN PRINCE JUNIOR V1 』*
+║ *『 WOW YOU'VE CHOSEN PRINCE JUNIOR V2 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
 ║❒ 
 ║❒ *Owner:* _https://wa.me/254723245807/message/NHCZC5DSOEUXB1_
-║❒ *Repo:* _https://github.com/Nyanuga/Nyanuga_
+║❒ *Repo:* _https://github.com/Nyanuga/https://github.com/Nyanuga/Prince-Junior-v2
 ║❒ *WaGroup:* _https://chat.whatsapp.com/LLx80jCw3fsDm94T3hePE7_
 ║❒ *WaChannel:* _https://whatsapp.com/channel/0029Vb5U5AI3wtb8r6Gbex2p_
 ║❒ *Plugins:* _
