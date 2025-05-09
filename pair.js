@@ -20,7 +20,7 @@ function removeFile(FilePath){
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-        async function PRINCE_JUNIOR_V1_PAIR_CODE() {
+        async function PRINCE_JUNIOR_V2_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -56,7 +56,7 @@ router.get('/', async (req, res) => {
                let b64data = Buffer.from(data).toString('base64');
                let session = await Pair_Code_By_Prince_Junior_Tech.sendMessage(Pair_Code_By_Prince_Junior_Tech.user.id, { text: '' + b64data });
 
-               let PRINCE_JUNIOR_V1_TEXT = `
+               let PRINCE_JUNIOR_V2_TEXT = `
 *_Pair Code Connected by Prince Junior Tech_*
 *_Made With 🤍_*
 ______________________________________
@@ -76,7 +76,7 @@ ______________________________________
 _____________________________________
 
 _Don't Forget To Give Star To My Repo_`
- await Pair_Code_By_PRINCE_JUNIOR_Tech.sendMessage(Pair_Code_By_Prunce_Junior_Tech.user.id,{text:PRUNCE_JUNIOT_V1_TEXT},{quoted:session})
+ await Pair_Code_By_Prince_Junior_Tech.sendMessage(Pair_Code_By_Prunce_Junior_Tech.user.id,{text:PRUNCE_JUNIOT_V2_TEXT},{quoted:session})
  
 
         await delay(100);
@@ -84,7 +84,7 @@ _Don't Forget To Give Star To My Repo_`
         return await removeFile('./temp/'+id);
             } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10000);
-                    PRINCE_JUNIOR_V1_PAIR_CODE();
+                    PRINCE_JUNIOR_V2_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -95,6 +95,6 @@ _Don't Forget To Give Star To My Repo_`
          }
         }
     }
-    return await PRINCE_JUNIOR_V1_PAIR_CODE()
+    return await PRINCE_JUNIOR_V2_PAIR_CODE()
 });
 module.exports = router
