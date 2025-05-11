@@ -95,7 +95,7 @@ SESSION-ID ==> ${Scan_Id}
             //  GIFTEDL().catch(err => console.log(err));
             } else if (reason === DisconnectReason.restartRequired) {
                 console.log("Restart Required, Restarting...")
-              GIFTED().catch(err => console.log(err));
+              PRINCE_JUNIOR_V2().catch(err => console.log(err));
             } else if (reason === DisconnectReason.timedOut) {
                 console.log("Connection TimedOut!")
              // GIFTED().catch(err => console.log(err));
@@ -116,7 +116,7 @@ SESSION-ID ==> ${Scan_Id}
   }
 
 
-  GIFTED().catch(async(err) => {
+  PRINCE_JUNIOR_V2().catch(async(err) => {
     console.log(err)
     await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
